@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+a,
+button,
+span,
+li {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.App {
+  margin: 0;
+  height: 100vh;
+  background-color: purple;
+}
+
+.MuiButton-root {
+  text-transform: none !important;
+}
+
+.menu {
+  color: rgb(10, 10, 233);
+}
+
+.menu>li {
+  width: 160px;
+  margin-left: 30px;
+}
+
+.menu>li {
+  border-bottom: 1px dashed lightgrey;
+}
+
+.menu>li:hover {
+  background: white;
+}
+
+.menu>li:last-child {
+  border: none;
+}
